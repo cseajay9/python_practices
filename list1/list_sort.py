@@ -8,5 +8,5 @@ print("rev list",revlist)
 # for case insensitive sort
 
 ilist = ["orange", "mango", "Kiwi", "kiwi","pineapple", "banana" ,"Apple", "apple","Banana"]
-ilist.sort()
+ilist.sort(key = str.lower)
 print(ilist)
